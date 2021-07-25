@@ -5,11 +5,9 @@ import Search from './pages/Search'
 
 const App: React.FC = () => {
 	return (
-		<div>
 			<Switch>
 				<Route exact path='/' component={Search} />
 			</Switch>
-		</div>
 	)
 }
 
