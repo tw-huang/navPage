@@ -4,58 +4,312 @@ import './index.style.css'
 
 const Search: React.FC = () => {
 	return (
-
-		<div className="flex flex-col pt-52 items-center h-screen w-screen bg-gray-100">
-			<div className="flex items-center my-2">
-				<img src={logo} alt="logo" className="w-24"/>
-				<span className="text-4xl">navpage</span>
+		<div className="flex flex-col items-center w-full h-full">
+			<div className="flex pt-16 md:pt-32 items-center">
+				<img src={logo} alt="logo" className="w-16 md:w-24"/>
+				<span className="text-3xl md:text-4xl">navpage</span>
 			</div>
-			<div className="my-2">
-				<input type="text" className="w-96 h-10"/>
+			<div className="flex my-3 md:my-4">
+				<input type="text" className="w-60 h-10 md:w-98 md:h-12"/>
 				<input type="submit" value="search"/>
 			</div>
-			<div className="flex my-2 mt-12">
-				<dd className="mx-2">综合</dd>
-				<dd className="mx-2">购物</dd>
-				<dd className="mx-2">帖吧</dd>
-				<dd className="mx-2">论坛</dd>
-				<dd className="mx-2">IT</dd>
-				<dd className="mx-2">影音</dd>
+			<div className="my-3 md:my-4 w-72 md:w-100">
+				<div className="flex">
+					<span className="flex-none pr-2 md:pr-4  py-1 md:py-2">影视:</span>
+					<div className="flex flex-wrap">
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+					</div>
+				</div>
+				<div className="flex">
+					<span className="flex-none pr-2 md:pr-4  py-1 md:py-2">影视:</span>
+					<div className="flex flex-wrap">
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+					</div>
+				</div>
+				<div className="flex">
+					<span className="flex-none pr-2 md:pr-4  py-1 md:py-2">影视:</span>
+					<div className="flex flex-wrap">
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+					</div>
+				</div>
+				<div className="flex">
+					<span className="flex-none pr-2 md:pr-4  py-1 md:py-2">影视:</span>
+					<div className="flex flex-wrap">
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+					</div>
+				</div>
+				<div className="flex">
+					<span className="flex-none pr-2 md:pr-4  py-1 md:py-2">影视:</span>
+					<div className="flex flex-wrap">
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+
+						<a className="flex items-center justify-center px-2 md:px-5 py-1 md:py-2" target="_blank"
+							 rel="noopener noreferrer"
+							 href="http://www.baidu.com">
+							<img src={logo} alt="logo" className="w-6 mr-1"/>
+							<span>百度</span>
+						</a>
+					</div>
+				</div>
 			</div>
-			<ul className="flex my-2 flex-wrap w-1/2">
-				<li className="w-1/4 py-2">
-					<a className="flex items-center justify-center" href="http://www.twhuang.top:9000/" target="_blank"
-						 rel="noopener noreferrer">
-						<img src={logo} alt="logo" className="w-6 mr-1"/>
-						<span>淘宝</span>
-					</a>
-				</li>
-
-				<li className="w-1/4 py-2">
-					<a className="flex items-center justify-center" href="http://www.twhuang.top:9000/" target="_blank"
-						 rel="noopener noreferrer">
-						<img src={logo} alt="logo" className="w-6 mr-1"/>
-						<span>淘宝</span>
-					</a>
-				</li>
-
-				<li className="w-1/4 py-2">
-					<a className="flex items-center justify-center" href="http://www.twhuang.top:9000/" target="_blank"
-						 rel="noopener noreferrer">
-						<img src={logo} alt="logo" className="w-6 mr-1"/>
-						<span>淘宝</span>
-					</a>
-				</li>
-
-				<li className="w-1/4 py-2">
-					<a className="flex items-center justify-center" href="http://www.twhuang.top:9000/" target="_blank"
-						 rel="noopener noreferrer">
-						<img src={logo} alt="logo" className="w-6 mr-1"/>
-						<span>淘宝</span>
-					</a>
-				</li>
-
-			</ul>
 
 		</div>
 	)
