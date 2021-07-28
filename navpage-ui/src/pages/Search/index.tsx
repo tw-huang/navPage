@@ -1,17 +1,21 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
-import './index.style.css'
+import bgImg from '../../assets/bg.png'
+import './index.css'
 
 const Search: React.FC = () => {
 	return (
-		<div className="flex flex-col items-center w-full h-full">
+		<div className="flex flex-col items-center w-full h-full min-h-screen bg-repeat"
+				 style={{ backgroundImage: `url(${bgImg})` }}>
 			<div className="flex pt-16 md:pt-32 items-center">
 				<img src={logo} alt="logo" className="w-16 md:w-24"/>
 				<span className="text-3xl md:text-4xl">navpage</span>
 			</div>
 			<div className="flex my-3 md:my-4">
-				<input type="text" className="w-60 h-10 md:w-98 md:h-12"/>
-				<input type="submit" value="search"/>
+				<div className="h-10 w-10 md:h-12 md:w-12 search_input">
+				</div>
+				<input type="text" value="百度一下，你就知道" className="w-60 h-10 md:w-98 md:h-12"/>
+				<input type="submit" value="" className="h-10 w-10 md:h-12 md:w-12 search_btn"/>
 			</div>
 			<div className="my-3 md:my-4 w-72 md:w-100">
 				<div className="flex">

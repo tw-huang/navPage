@@ -1,0 +1,14 @@
+.search_btn {
+    background-color: #ffe400;
+    background-image: url("../../assets/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.search_input {
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
