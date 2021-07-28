@@ -29,16 +29,10 @@ spring:
         max-idle: 5
         max-wait: -1
         max-active: 10
-  servlet:
-    multipart:
-      #开启文件上传
-      enabled: true
-      max-file-size: 100MB
-      max-request-size: 100MB
 
 mybatis-plus:
-  mapper-locations: classpath*:me/twhuang/dogchat/mapper/xml/*Mapper.xml
-  type-aliases-package: me.twhuang.dogchat.entity
+  mapper-locations: classpath*:top/twhuang/navpage/mapper/xml/*Mapper.xml
+  type-aliases-package: top.twhuang.navpage.entity
   global-config:
     banner: false
   configuration:
