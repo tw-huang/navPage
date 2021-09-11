@@ -2,7 +2,7 @@
   "name": "navpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/nav/",
+  "homepage": "/nav",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@tailwindcss/postcss7-compat": "^2.1.2",
