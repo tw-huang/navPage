@@ -65,8 +65,6 @@ const Search: React.FC = () => {
 		}
 	}
 
-	const handleKeyUp = ()=>{
-	}
 
 	return (
 		<div className="flex flex-col items-center w-full h-full min-h-screen bg-repeat"
@@ -79,7 +77,6 @@ const Search: React.FC = () => {
 				<div className="h-10 w-10 md:h-12 md:w-12 border-r-2 border-gray-50 search_input">
 				</div>
 				<input type="text" ref={inputEl} value={searchText} onChange={event => setSearchText(event.target.value)}
-							 onKeyUp={handleKeyUp}
 							 className="w-60 h-10 md:w-98 md:h-12 px-4 focus:outline-none"/>
 				<input type="submit" value=""
 							 className="h-10 w-10 md:h-12 md:w-12 search_btn cursor-pointer hover:bg-yellow-200"
